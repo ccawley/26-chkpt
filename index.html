@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Practice Form</title>
+    <meta name="author" content="Curtis Cawley">
+    <meta name="description" content="A html only form for unit 26-chkpt.">
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Forms are fun!</legend>
+        <label>
+            Email:
+          <input type="email" name="email" value="" placeholder="Type email here..." required>
+        </label><br>
+        <label>
+            Password:
+          <input type="password" name="password" value="" placeholder="Type password here..." required>
+        </label><br>
+        <label>
+            Github Username:
+          <input type="text" name="github" value="" placeholder="Type username here..." required>
+        </label><br>
+        Github Account Type -
+        <label>
+            Enterprise:
+          <input id="enterprise" type="radio" name="account" value="enterprise" required>
+        </label>
+        <label>
+            Pro:
+          <input id="pro" type="radio" name="account" value="pro">
+        </label>
+        <label>
+            Free:
+          <input id="free" type="radio" name="account" value="free">
+        </label><br>
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+
+  </body>
+</html>
